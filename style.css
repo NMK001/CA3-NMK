@@ -4,38 +4,50 @@ nav{
 }
 
 header{
-    background-color:rgb(192, 192, 192);
-    color:white;
+    background-color:rgb(7, 54, 66);
+    color:rgb(131,148,150);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
-    background-color: rgb(192, 192, 192);
-    color: 'base-font-color';
+    background-color: rgb(7, 54, 66);
+    color: rgb(131, 148, 150);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main{
-    color: rgb(64, 64, 64);
+    background-color: rgb(50, 43, 54);
+    color: rgb(131,148,150);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: ;
+    text-align:justify;
 
 }
 
-p::first-letter{
-    color: rgb(25, 51, 0);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+p{
+    color: antiquewhite;
 }
+
 
 body{
-    background-color: rgb(243, 234, 234);
+    background-color: rgb(50, 43, 54);
+    text-align: justify;
+}
+
+a:link{
+text-decoration: none;
+color: rgb(211, 54, 130);
+}
+
+a:visited{
+    color:rgb(131,148,150);
+}
+
+a:hover{
+    color: orange;
 }
 
 
-
-
-
+3.	Set the text color in the main, footer, and header to be `base-font-color`.
 
 <style>
 :root {
@@ -52,6 +64,11 @@ body{
   --c-blue: rgb(38,139,210);
   --c-cyan: rgb(42,161,152);
   --c-green: rgb(133,153,0);
+  p::first-letter{
+    color: rgb(25, 51, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 }
 <link rel="x-icon" href="../CA3-NMK/images/favicon.ico" type="image/x-icon">
 link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"/>
