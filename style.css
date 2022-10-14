@@ -1,5 +1,5 @@
 nav{
-    background-color: aqua;
+    background-color:rgb(38,139,210);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -20,13 +20,18 @@ main{
     color: rgb(131,148,150);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:justify;
+}
 
+section{
+    border: 3px;
+    border-style: inset;
+    border-color: rgb(42,161,152);
+    
 }
 
 p{
     color: antiquewhite;
 }
-
 
 body{
     background-color: rgb(50, 43, 54);
@@ -46,8 +51,16 @@ a:hover{
     color: orange;
 }
 
+.container{
+    width: 60%;
+    text-align: justify;
+    height: auto;
+    border: 10px;
+    min-width: 300px;
+    padding: 0px,10px,0px,10px;
+}
 
-3.	Set the text color in the main, footer, and header to be `base-font-color`.
+6.	Create a border around each subsection of the article, including the subsection heading. The border should be solid, 3px wide, and be `c-cyan` in color.
 
 <style>
 :root {
