@@ -52,7 +52,6 @@ p::first-letter{
 h3,h2{
     color:rgb(88,110,117);
     padding-top: 50px;
-    padding-bottom: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     
@@ -73,6 +72,9 @@ ul.related{
 
 a.link{
     color: rgb(220, 50, 47);
+    font-size: 14px;
+    padding-right: 5px;
+    padding-left: 15px;
 }
 a.link:hover{
     color:rgb(38,139,210) ;
@@ -81,6 +83,7 @@ a.link:hover{
 aside{
     color: rgb(133,153,0);
     float: right;
+    
 }
 
 a:link{
@@ -104,17 +107,17 @@ a:hover{
 footer{
     background-color:rgb(7, 54, 66);
     color:rgb(181,137,  0);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 .footer{
-    
+    float: left;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-13.	Set the layout of the main content section such that the 'related links' portion is to the right of the article. (Hint: This might be a difficult task; you may require some additional research to complete it).
- 
+
 
 <style>
 :root {
