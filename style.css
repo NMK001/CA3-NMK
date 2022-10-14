@@ -15,20 +15,11 @@ nav{
     word-spacing: 70px;
     background-color: rgb(56, 47, 60);
     font-weight: bold;
-    
 }
 
 div.flex-container{
     align-items: center;
 
-}
-
-footer{
-    background-color: rgb(7, 54, 66);
-    color: rgb(131, 148, 150);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3px;
-    margin: 10px;
 }
 
 main{
@@ -53,7 +44,7 @@ p{
 }
 
 p::first-letter{
-    color: rgb(147,161,161);
+    color: rgb(181,137,  0);
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -89,6 +80,7 @@ a.link:hover{
 
 aside{
     color: rgb(133,153,0);
+    float: right;
 }
 
 a:link{
@@ -106,10 +98,22 @@ a:hover{
     height: auto;
     border: 10px;
     min-width: 300px; 
+    float: left;
 }
 
-11.	Set the maximum width of the page to 800px.
-12.	All headings within the article should have a top padding of 50px.
+footer{
+    background-color:rgb(7, 54, 66);
+    color:rgb(181,137,  0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer{
+    
+}
+
+13.	Set the layout of the main content section such that the 'related links' portion is to the right of the article. (Hint: This might be a difficult task; you may require some additional research to complete it).
  
 
 <style>
