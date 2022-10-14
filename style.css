@@ -55,6 +55,10 @@ body{
     text-align: justify;
 }
 
+aside{
+    color: rgb(133,153,0);
+}
+
 a:link{
 text-decoration: none;
 color: rgb(211, 54, 130);
