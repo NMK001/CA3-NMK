@@ -1,5 +1,5 @@
 nav{
-    background-color:rgb(38,139,210);
+    background-color:rgb(7, 54, 66);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -28,7 +28,6 @@ section{
     border: 3px;
     border-style: inset;
     border-color: rgb(42,161,152);
-    
 }
 
 p{
@@ -62,7 +61,8 @@ a:hover{
     padding: 0px,10px,0px,10px;
 }
 
-
+8.	Remove the bullet points from the unordered list in the nav section.
+9.	For the list items in the nav section list, align to the center, and apply a flex layout. (Hint: this is hard. The nav bar needs to be the entire width of the page in order for all items here to be displayed correctly). 
 
 <style>
 :root {
