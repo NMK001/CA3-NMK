@@ -44,10 +44,12 @@ section{
     border: 3px;
     border-style: inset;
     border-color: rgb(42,161,152);
+    text-align: center;
 }
 
 p{
     color: antiquewhite;
+    text-align: justify;
 }
 
 body{
@@ -60,12 +62,8 @@ aside{
 }
 
 a:link{
-text-decoration: none;
-color: rgb(211, 54, 130);
-}
-
-a:visited{
-    color:rgb(131,148,150);
+    text-decoration: none;
+    color: rgb(211, 54, 130);
 }
 
 a:hover{
