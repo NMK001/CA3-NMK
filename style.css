@@ -9,12 +9,28 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 150%;
+    margin: 10px;
+}
+
+nav{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 3px;
+
+}
+
+div.flex-container{
+    display: flexbox;
+
 }
 
 footer{
     background-color: rgb(7, 54, 66);
     color: rgb(131, 148, 150);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    margin: 10px;
 }
 
 main{
@@ -58,7 +74,7 @@ a:hover{
     height: auto;
     border: 10px;
     min-width: 300px;
-    padding: 0px,10px,0px,10px;
+   
 }
 
 8.	Remove the bullet points from the unordered list in the nav section.
