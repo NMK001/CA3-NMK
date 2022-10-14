@@ -63,9 +63,12 @@ body{
 ul.related{
     list-style-type: none;
     color: rgb(133, 153, 0);
-    
-    
+    margin: 0%;
+    padding: 0%;
+}
 
+a.link{
+    color: red;
 }
 
 aside{
@@ -86,11 +89,11 @@ a:hover{
     text-align: justify;
     height: auto;
     border: 10px;
-    min-width: 300px;
-   
+    min-width: 300px; 
 }
+
 10.	Color all text in the aside to c-green. All links in the aside should be c-red, except when they are hovered over, when they should be c-blue.
-8.	Remove the bullet points from the unordered list in the nav section.
+
 9.	For the list items in the nav section list, align to the center, and apply a flex layout. (Hint: this is hard. The nav bar needs to be the entire width of the page in order for all items here to be displayed correctly). 
 
 <style>
