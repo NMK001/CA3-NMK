@@ -18,10 +18,8 @@ nav{
     font-weight: bold;
 }
 
-
 div.flex-container{
     align-items: center;
-
 }
 
 main{
@@ -84,8 +82,7 @@ a.link:hover{
 
 aside{
     color: rgb(133,153,0);
-    float: right;
-    
+    float: right;   
 }
 
 a:link{
@@ -126,30 +123,3 @@ h5{
 
 
 
-<!-------------
-<style>
-:root {
-  --base-font-color: rgb(131,148,150);
-  --secondary-font-color: rgb(88,110,117);
-  --emphasised-font: rgb(147,161,161);
-  --c-background-color: rgb(50, 43, 54);
-  --c-background-highlights: rgb(7, 54, 66);
-  --c-yellow: rgb(181,137,  0);
-  --c-orange: rgb(203, 75, 22);
-  --c-red: rgb(220, 50, 47);
-  --c-magenta: rgb(211, 54,130);
-  --c-violet: rgb(108,113,196);
-  --c-blue: rgb(38,139,210);
-  --c-cyan: rgb(42,161,152);
-  --c-green: rgb(133,153,0);
-  p::first-letter{
-    color: rgb(25, 51, 0);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-}
-
-link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"/>
-</style>
-
--------------!>
