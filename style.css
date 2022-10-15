@@ -1,10 +1,11 @@
 header{
     background-color:rgb(7, 54, 66);
     color:rgb(181,137,  0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 150%;
     margin: 10px;
+    padding-top: 0px;
 }
 
 nav{
@@ -104,21 +105,29 @@ a:hover{
     float: left;
 }
 
-footer{
-    background-color:rgb(7, 54, 66);
-    color:rgb(181,137,  0);
-    font-family: Arial, Helvetica, sans-serif;  
-}
-
-.footer{
-    float: left;
-    font-size: 18px;
-    margin: 10px;
+h5{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+footer{
+    background-color:rgb(7, 54, 66);
+    color:rgb(131,148,150);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.footer{
+    float: left;    
+    margin: 10px;
+    padding-left: 20px;
+}
 
 
+
+
+<!-------------
 <style>
 :root {
   --base-font-color: rgb(131,148,150);
@@ -143,3 +152,5 @@ footer{
 <link rel="x-icon" href="../CA3-NMK/images/favicon.ico" type="image/x-icon">
 link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"/>
 </style>
+
+-------------!>
