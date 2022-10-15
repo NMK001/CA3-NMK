@@ -53,9 +53,9 @@ h3,h2{
     color:rgb(88,110,117);
     padding-top: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
+
 body{
     background-color: rgb(50, 43, 54);
     text-align: justify;
@@ -116,10 +116,5 @@ h5{
 .footer{
     float: left;    
     margin: 10px;
-    padding-left: 20px;
-    
+    padding-left: 20px;  
 }
-
-
-
-
