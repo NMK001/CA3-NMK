@@ -76,6 +76,7 @@ a.link{
     padding-right: 5px;
     padding-left: 15px;
 }
+
 a.link:hover{
     color:rgb(38,139,210) ;
 }
@@ -111,7 +112,6 @@ h5{
     background-color:rgb(7, 54, 66); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 .footer{
     float: left;    
