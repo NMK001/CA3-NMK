@@ -24,7 +24,7 @@ div.flex-container{
 
 main{
     background-color: rgb(50, 43, 54);
-    color: rgb(131,148,150);
+    color: var(--base-font);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:justify;
 }
@@ -38,13 +38,12 @@ section{
 }
 
 p{
-    color: antiquewhite;
     text-align: justify;
     padding: 1%;
 }
 
 p::first-letter{
-    color: rgb(181,137,  0);
+    color: var(--emph-font);
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -88,7 +87,7 @@ aside{
 
 a:link{
     text-decoration: none;
-    color: rgb(211, 54,130);
+    color: var(--magenta);
 }
 
 a:hover{
@@ -108,7 +107,7 @@ h5{
     font-weight: lighter;
     text-align: center;
     font-size: 15px;
-    color:rgb(131,148,150);
+    color: var(--base-font);
     background-color:rgb(7, 54, 66); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -117,4 +116,10 @@ h5{
     float: left;    
     margin: 10px;
     padding-left: 20px;  
+}
+
+:root{
+    --base-font: rgb(131,148,150);
+    --secondary-font: rgb(88,110,117);
+    --emph-font: rgb(147,161,161);
 }
